@@ -1,0 +1,39 @@
+# ---> Go
+# Archivos generados por el compilador
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Binarios y ejecutables
+bin/
+*.out
+
+# Archivos de test cache y profiles
+*.test
+*.prof
+
+# Caché de build (si usas uno)
+build/
+
+# Logs
+*.log
+
+# Variables de entorno
+.env
+*.env
+
+# IDE / Editor
+# VSCode
+.vscode/
+.history/
+
+# IntelliJ / GoLand
+.idea/
+
+# MacOS
+.DS_Store
+
+# Windows
+Thumbs.db
