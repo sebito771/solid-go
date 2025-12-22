@@ -1,23 +1,13 @@
-package intenger
+package integers
 
-import (
-	"fmt"
-	"testing"
-)
+import "testing"
 
-func TestAdder(t *testing.T) { //RECUERDA QUE DESPUES DEL TEST LA PALABRA DEBE EMPEZAR EN MAYUSCULAS
-	sum := Add(2, 2)
-
-	expected := 4
+func TestAdder(t *testing.T) {
+	sum := Add(3, 2)
+	expected := 5
 
 	if sum != expected {
-		t.Errorf("expected '%d'but got '%d'", expected, sum)
+		t.Errorf("expected '%d' but got '%d'", expected, sum)
 	}
 
-}
-
-func ExampleAdd() {
-	sum := Add(1, 5)
-	fmt.Println(sum)
-	// output : 6
 }

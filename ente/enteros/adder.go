@@ -1,10 +1,16 @@
-package intenger
+package integers
+
+import "fmt"
 
 func Add(x, y int) int {
-	return x + y
-
-	//la suma de dos numeros
+	var resultado= x + y
+	return resultado
+	
 }
 
+func main(){
 
+ fmt.Print(Add(1,4))
+
+}
 
